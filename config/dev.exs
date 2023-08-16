@@ -6,6 +6,7 @@ config :macgregor_valley_farm, MacgregorValleyFarm.Repo,
   password: "postgres",
   hostname: "localhost",
   database: "macgregor_valley_farm_dev",
+  port: 5433,
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
