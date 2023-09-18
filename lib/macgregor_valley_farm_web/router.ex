@@ -19,6 +19,9 @@ defmodule MacgregorValleyFarmWeb.Router do
 
     get "/", PageController, :home
     get "/about", PageController, :about
+    get "/our-breeds", PageController, :our_breeds
+    get "/contact", PageController, :contact
+    get "/for-sale", PageController, :for_sale
   end
 
   # Other scopes may use custom stacks.
