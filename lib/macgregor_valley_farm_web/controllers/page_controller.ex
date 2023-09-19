@@ -20,12 +20,11 @@ defmodule MacgregorValleyFarmWeb.PageController do
   def our_breeds(conn, _params) do
 
     breeds = [
-      %{name: "Silver Gray Dorking", description: "", image: "silver-gray-dorking.jpg"},
-      %{name: "Silver Laced Wyandotte", description: "", image: "silver-laced-wyandotte.jpg"},
-      %{name: "Gold Laced Wyandotte", description: "", image: "gold-laced-wyandotte.jpg"},
-      %{name: "Lavender Orpington", description: "", image: "lavender-orpington.jpg"},
-      %{name: "Jersey Giants", description: "", image: "jersey-giants.jpg"},
-      %{name: "Cochins", description: "", image: "Cochins.jpg"},
+      %{name: "Silver Gray Dorking", description: "", image: "silver_gray_dorking.jpg"},
+      %{name: "Silver Laced Wyandotte", description: "", image: "silver_laced_wyandotte.jpg"},
+      %{name: "Gold Laced Wyandotte", description: "", image: "gold_laced_wyandotte.jpg"},
+      %{name: "Lavender Orpington", description: "", image: "lavender_orpington.jpg"},
+      %{name: "Jersey Giants", description: "", image: "jersey_giants.jpg"},
     ]
 
     render(conn, :our_breeds, breeds: breeds)
